@@ -11,14 +11,15 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-void ft_putendl_fd(char *s, int fd)
+
+void	ft_putendl_fd(char *s, int fd)
 {
-    ft_putstr_fd(s, fd);
-    write(fd, "\n", 1);
+	ft_putstr_fd(s, fd);
+	write(fd, "\n", 1);
 }
-/*char *c =  "enes ulku"; 
-    int fd = open("output.txt", O_CREAT | O_RDWR | O_APPEND, 0666); 
+/*char *c =  "enes ulku";
+	int fd = open("output.txt", O_CREAT | O_RDWR | O_APPEND, 0666);
 
-    ft_putendl_fd(c, fd);
+	ft_putendl_fd(c, fd);
 
-    close(fd);*/
+	close(fd);*/

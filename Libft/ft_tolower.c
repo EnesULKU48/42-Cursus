@@ -6,14 +6,15 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:11:15 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/25 15:11:15 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/28 16:52:01 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int ft_tolower(int c)
+
+int	ft_tolower(int c)
 {
-    if (c <= 'Z' && c >= 'A')
-        return (c + 32);
-    return (c);
+	if (c <= 'Z' && c >= 'A')
+		return (c + 32);
+	return (c);
 }

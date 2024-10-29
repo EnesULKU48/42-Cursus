@@ -11,21 +11,20 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-void ft_putstr_fd(char *s, int fd)
+
+void	ft_putstr_fd(char *s, int fd)
 {
-    int i;
+	int	i;
 
-    if (s == NULL)
-        return;
-
-    i = 0;
-    while (s[i])
-        write(fd, &s[i++], 1);
-
+	if (s == NULL)
+		return ;
+	i = 0;
+	while (s[i])
+		write(fd, &s[i++], 1);
 }
-/*char *c =  "enes ulku"; 
-    int fd = open("output.txt", O_CREAT | O_RDWR | O_APPEND, 0666); 
+/*char *c =  "enes ulku";
+	int fd = open("output.txt", O_CREAT | O_RDWR | O_APPEND, 0666);
 
-    ft_putstr_fd(c, fd);
+	ft_putstr_fd(c, fd);
 
-    close(fd);*/
+	close(fd);*/

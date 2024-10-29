@@ -11,10 +11,11 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-void ft_striteri(char *s, void (*f)(unsigned int, char*))
+
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-    unsigned int	i;
-    
+	unsigned int	i;
+
 	if (s)
 	{
 		i = 0;
@@ -30,10 +31,10 @@ void ft_striteri(char *s, void (*f)(unsigned int, char*))
 	*str = ft_tolower(*str);
 }
 
-int main()
+int	main(void)
 {
 	char str[] = "Enes uLKu";
 	ft_striteri(str,ft_iter);
 	printf("%s",str);
-    return 0;
+	return (0);
 }*/

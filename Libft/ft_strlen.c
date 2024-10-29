@@ -6,16 +6,18 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:11:11 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/25 15:11:11 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/28 16:47:36 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-size_t ft_strlen(const char *s)
+
+size_t	ft_strlen(const char *s)
 {
-    size_t i;
-    i = 0;
-    while (s[i])
-        i++;
-    return (i);
+	size_t	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
 }

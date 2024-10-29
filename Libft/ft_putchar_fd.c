@@ -11,13 +11,14 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-void ft_putchar_fd(char c, int fd)
+
+void	ft_putchar_fd(char c, int fd)
 {
-    write(fd, &c, 1);
+	write(fd, &c, 1);
 }
-/*char c = 'a'; 
-    int fd = open("output.txt", O_CREAT | O_RDWR | O_APPEND, 0666); 
+/*char c = 'a';
+	int fd = open("output.txt", O_CREAT | O_RDWR | O_APPEND, 0666);
 
-    ft_putchar_fd(c, fd);
+	ft_putchar_fd(c, fd);
 
-    close(fd);*/
+	close(fd);*/
