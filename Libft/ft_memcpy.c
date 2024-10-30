@@ -6,7 +6,7 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:10:28 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/28 16:43:17 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/30 13:38:01 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+/*char a[4] = "Enes";
+	char b[7] = "okulsss";
+	char *dst = ft_memcpy(a, b, 7);
+	printf("%s", dst);*/

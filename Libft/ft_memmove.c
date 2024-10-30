@@ -6,7 +6,7 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:10:50 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/28 21:24:07 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/30 13:44:02 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	if ((size_t)dest - (size_t)src < n)
 	{
 		i = n - 1;
-		while (i < n)
+		while ((int)i >= 0)
 		{
 			*(char *)(dest + i) = *(char *)(src + i);
 			i--;

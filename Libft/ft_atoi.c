@@ -6,7 +6,7 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 12:33:59 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/26 12:33:59 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/30 11:42:05 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,4 @@ int	ft_atoi(const char *str)
 		total = total * 10 + (str[i++] - 48);
 	return (total * sign);
 }
-/*char str[] = "-123ab";
-	int result;
-	result = ft_atoi(str);
-	printf("%d", result);*/
+/*printf("%d",ft_atoi("  +4564cwv "));*/

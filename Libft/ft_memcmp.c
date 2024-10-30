@@ -6,7 +6,7 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:35:05 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/25 23:35:05 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/30 13:27:22 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,4 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 }
 /*char a[] = "Enesma";
 	char b[] = "enesaa";
-	printf("%d", ft_memcmp(a, b, 4));*/
+	printf("%d", ft_memcmp(a, b,  sizeof(a)));*/

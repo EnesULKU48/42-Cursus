@@ -6,7 +6,7 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:31:58 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/28 21:40:31 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/30 13:17:00 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	return (NULL);
 }
 /*char s[] = "Enes Ülkü 42 de";
-	printf("%s", ft_memchr(s, '4', 20));*/
+	char *str =  (char *)ft_memchr(s, '4', 20);
+	printf("%s",str);*/
