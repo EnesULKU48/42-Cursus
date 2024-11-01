@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
+/*   By: eulku <eulku@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 12:33:59 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/30 11:42:05 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/31 11:45:00 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(const char *str)
 {
@@ -33,4 +31,3 @@ int	ft_atoi(const char *str)
 		total = total * 10 + (str[i++] - 48);
 	return (total * sign);
 }
-/*printf("%d",ft_atoi("  +4564cwv "));*/

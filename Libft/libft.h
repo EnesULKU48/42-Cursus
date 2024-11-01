@@ -6,14 +6,13 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:09:49 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/29 11:47:56 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/31 20:21:15 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdlib.h>
 # include <unistd.h>
 
 int		ft_isdigit(int c);

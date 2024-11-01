@@ -6,11 +6,11 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:10:50 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/30 13:44:02 by eulku            ###   ########.fr       */
+/*   Updated: 2024/11/01 11:31:27 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
@@ -23,7 +23,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		i = n - 1;
 		while ((int)i >= 0)
 		{
-			*(char *)(dest + i) = *(char *)(src + i);
+			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
 			i--;
 		}
 	}
@@ -32,13 +32,17 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		i = 0;
 		while (i < n)
 		{
-			*(char *)(dest + i) = *(char *)(src + i);
+			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
 			i++;
 		}
 	}
 	return (dest);
 }
 
-/*char data[] = "123456789";
-	ft_memmove(data + 3, data, 6); // "123123456" olmasını bekleriz
-	printf("%s", data);*/
+/*char data[20] = "123456789";
+	ft_memmove(data+5, data, 1);
+	printf("%s\n", data);
+	
+    char data2[20] = "123456789";
+	char *sonuc = ft_memcpy(data2+5, data2, 1);
+	printf("%s", sonuc);*/

@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
+/*   By: eulku <eulku@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 14:36:56 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/18 14:36:56 by eulku            ###   ########.fr       */
+/*   Updated: 2024/10/31 10:53:09 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isascii(int c)
 {

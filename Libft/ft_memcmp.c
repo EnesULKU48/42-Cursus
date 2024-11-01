@@ -6,11 +6,11 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:35:05 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/30 13:27:22 by eulku            ###   ########.fr       */
+/*   Updated: 2024/11/01 10:45:05 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -25,6 +25,6 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*char a[] = "Enesma";
+/*char a[] = "Enesa";
 	char b[] = "enesaa";
 	printf("%d", ft_memcmp(a, b,  sizeof(a)));*/

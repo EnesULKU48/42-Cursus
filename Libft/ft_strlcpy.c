@@ -6,11 +6,12 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:49:46 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/25 15:49:46 by eulku            ###   ########.fr       */
+/*   Updated: 2024/11/01 12:30:30 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stddef.h>
 
 size_t	ft_strlcpy(char *dest, char *src, size_t size)
 {
@@ -26,10 +27,7 @@ size_t	ft_strlcpy(char *dest, char *src, size_t size)
 		}
 		dest[i] = '\0';
 	}
-	i = 0;
-	while (src[i])
-		i++;
-	return (i);
+	return (ft_strlen(src));
 }
 /*char dest[50] = "rgearghrsthryhjsryjhsr";
 	char src[50] = "enes";

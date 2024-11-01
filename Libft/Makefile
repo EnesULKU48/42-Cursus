@@ -1,3 +1,4 @@
+CC = cc
 NAME = libft.a
 CFLAGS = -Wall -Wextra -Werror
 SRC = ft_isdigit.c ft_isalpha.c ft_isalnum.c ft_isascii.c ft_isprint.c \
@@ -12,13 +13,13 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 %.o: %.c
-	@gcc $(CFLAGS) -c $< -o $@
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJ)
-	@ar rcs $(NAME) *.o
+	@ar rcs $(NAME) $(OBJ)
 
 clean:
-	@rm -f *.o
+	@rm -f $(OBJ)
 
 fclean: clean
 	@rm -f $(NAME)

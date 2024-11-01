@@ -6,11 +6,11 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:31:46 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/28 20:49:54 by eulku            ###   ########.fr       */
+/*   Updated: 2024/11/01 20:23:53 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

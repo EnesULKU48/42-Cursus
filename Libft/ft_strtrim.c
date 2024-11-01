@@ -6,11 +6,12 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 17:52:43 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/28 20:28:20 by eulku            ###   ########.fr       */
+/*   Updated: 2024/11/01 21:01:42 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

@@ -6,7 +6,7 @@
 /*   By: eulku < eulku@student.42kocaeli.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 17:03:46 by eulku             #+#    #+#             */
-/*   Updated: 2024/10/28 20:57:11 by eulku            ###   ########.fr       */
+/*   Updated: 2024/11/01 19:46:21 by eulku            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		d++;
 	}
 	dest[d] = '\0';
-	if (dest_len >= size)
-		dest_len = size;
+	/*if (dest_len >= size)
+		dest_len = size;*/
 	return (dest_len + src_len);
 }
 
